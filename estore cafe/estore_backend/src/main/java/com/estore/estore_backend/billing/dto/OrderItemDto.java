@@ -11,6 +11,8 @@ public class OrderItemDto {
     @DecimalMin(value = "0.0", inclusive = false, message = "Le prix unitaire doit être positif")
     private Double unitPrice;
 
+    public OrderItemDto() {}
+
     public OrderItemDto(Long productId, String productName, int quantity, Double unitPrice) {
         this.productId = productId;
         this.productName = productName;

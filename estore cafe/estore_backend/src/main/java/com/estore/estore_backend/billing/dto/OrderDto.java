@@ -19,6 +19,8 @@ public class OrderDto {
     @NotEmpty(message = "La commande doit contenir au moins un item")
     private List<@Valid OrderItemDto> items;
 
+    public OrderDto() {}
+
     public OrderDto(Long id, LocalDateTime orderDate, Double totalAmount, String status, Long userId, List<OrderItemDto> items) {
         this.id = id;
         this.orderDate = orderDate;

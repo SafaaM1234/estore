@@ -6,6 +6,8 @@ public class ReviewResponseDto {
 
     private Long id;
     private Long userId;
+    private String userFirstName;
+    private String userLastName;
     private Long productId;
 
     private int rating;
@@ -34,6 +36,14 @@ public class ReviewResponseDto {
     public void setUserId(Long userId) {
         this.userId = userId;
     }
+
+    public String getUserFirstName() {return userFirstName;}
+
+    public void setUserFirstName(String userFirstName) {this.userFirstName = userFirstName;}
+
+    public String getUserLastName() {return userLastName;}
+
+    public void setUserLastName(String userLastName) {this.userLastName = userLastName;}
 
     public Long getProductId() {
         return productId;
@@ -104,6 +114,8 @@ public class ReviewResponseDto {
         return "ReviewResponseDto{" +
                 "id=" + id +
                 ", userId=" + userId +
+                ", userFirstName"+ userFirstName+
+                ", userLastName"+ userLastName+
                 ", productId=" + productId +
                 ", rating=" + rating +
                 ", comment='" + comment + '\'' +

@@ -6,6 +6,8 @@ import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Objects;
+
 @RestController
 @RequestMapping("/api/cart")
 public class ShoppingController {
@@ -31,7 +33,13 @@ public class ShoppingController {
 
     // Ajouter un produit au panier
     @PostMapping("/{cartId}/add/{productId}")
-    public ResponseEntity<CartItemDto> addItem(@PathVariable Long cartId, @Valid @RequestBody CartItemDto itemDto) {
+    public ResponseEntity<CartItemDto> addItem(
+            @PathVariable Long cartId,
+            @PathVariable Long productId,
+            @Valid @RequestBody CartItemDto itemDto) {
+        if (!Objects.equals(productId, itemDto.getProductId())) {
+            throw new IllegalArgumentException("L'identifiant produit dans l'URL et le corps doivent correspondre.");
+        }
         CartItemDto item = shoppingService.addItem(cartId, itemDto);
         return ResponseEntity.ok(item);
     }

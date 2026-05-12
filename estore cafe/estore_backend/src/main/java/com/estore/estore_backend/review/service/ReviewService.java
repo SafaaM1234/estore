@@ -30,6 +30,8 @@ public class ReviewService {
         ReviewResponseDto dto = new ReviewResponseDto();
         dto.setId(r.getId());
         dto.setUserId(r.getUserId());
+        dto.setUserFirstName(r.getUser().getFirstName());
+        dto.setUserLastName(r.getUser().getLastName());
         dto.setProductId(r.getProductId());
         dto.setRating(r.getRating());
         dto.setComment(r.getComment());
