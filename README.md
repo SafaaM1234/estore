@@ -1,11 +1,11 @@
-#  Kofeo – Boutique en ligne du café
+# ☕ Kofeo – Boutique en ligne du café
 
 Bienvenue sur **Kofeo**, une boutique en ligne dédiée à l’univers du café :  
 machines, grains, capsules et accessoires. Ce projet est un **site e‑commerce complet** développé avec **Spring Boot (backend)** et **React (frontend)**, simulant le parcours utilisateur d’un vrai magasin en ligne.
 
 ---
 
-##  Fonctionnalités principales
+## 📍 Fonctionnalités principales
 
 - **Accueil** : présentation de la marque et mise en avant des catégories.  
 - **Catalogue** : navigation par catégories (machines, capsules, grains, accessoires).  
@@ -18,7 +18,7 @@ machines, grains, capsules et accessoires. Ce projet est un **site e‑commerce 
 
 ---
 
-##  Aperçu du projet
+## 🖥️ Aperçu du projet
 
 ### Page d’accueil
 ![Accueil](https://drive.google.com/uc?id=1wj3VSpzVuDId8lzSXPB_Hu8z2f225UeS)
@@ -48,11 +48,11 @@ machines, grains, capsules et accessoires. Ce projet est un **site e‑commerce 
 ![Affichage avis](https://drive.google.com/uc?id=17MOcz5Hwe0s0KUojsDU8CTuHTlf0Y6rs)
 
 ### Profil utilisateur
-![Profil](https://drive.google.com/uc?id=1s-nAdeCy9YdBHNqXC30yXcBVie9srThr)
+![Profil](https://drive.google.com/file/d/1M9nvWRSz3khMfOpzuZCjS0vQ7BxdDXVA/view?usp=sharing)
 
 ---
 
-##  Technologies utilisées
+## 🔧 Technologies utilisées
 
 - **Backend** : Spring Boot (REST API, gestion des entités : clients, produits, commandes, avis)  
 - **Frontend** : React (SPA, composants modulaires, Context API pour la gestion d’état)  
