@@ -48,7 +48,8 @@ machines, grains, capsules et accessoires. Ce projet est un **site e‑commerce 
 ![Affichage avis](https://drive.google.com/uc?id=17MOcz5Hwe0s0KUojsDU8CTuHTlf0Y6rs)
 
 ### Profil utilisateur
-![Profil](https://drive.google.com/file/d/1M9nvWRSz3khMfOpzuZCjS0vQ7BxdDXVA/view?usp=sharing)
+![Profil](https://drive.google.com/uc?id=1EuNGgNl4PvzIcJBfYrmR95kcSb23AV-r)
+
 
 ---
 
