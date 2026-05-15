@@ -64,7 +64,8 @@ machines, grains, capsules et accessoires. Ce projet est un **site e‑commerce 
 
 ## 📂 Accès au projet complet
 Le projet est également disponible sur Google Drive :  
-👉 [Lien vers le projet](https://drive.google.com/drive/u/1/folders/1MUvUhJ0r7WYI4LR9l3_Puv0f-0RHAyLQ)
+👉 [Lien vers le projet complet](https://drive.google.com/uc?export=download&id=1olFv2bevJfNfbICweKj2APibXSm-3jcI)
+
 
 ## ⚙️ Installation
 1. Clonez le dépôt :
