@@ -50,7 +50,6 @@ machines, grains, capsules et accessoires. Ce projet est un **site e‑commerce 
 ### Profil utilisateur
 ![Profil](https://drive.google.com/uc?id=1EuNGgNl4PvzIcJBfYrmR95kcSb23AV-r)
 
-
 ---
 
 ## 🔧 Technologies utilisées
@@ -66,6 +65,7 @@ machines, grains, capsules et accessoires. Ce projet est un **site e‑commerce 
 Le projet est également disponible sur Google Drive :  
 👉 [Lien vers le projet complet](https://drive.google.com/uc?export=download&id=1olFv2bevJfNfbICweKj2APibXSm-3jcI)
 
+---
 
 ## ⚙️ Installation
 1. Clonez le dépôt :
